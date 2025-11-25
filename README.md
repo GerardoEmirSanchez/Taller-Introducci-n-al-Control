@@ -86,3 +86,75 @@ Taller-Control-PID-Robotica/
 3. Ejecutar el archivo deseado:
    ```matlab
    run('Control_Temperatura_Sistema_2do_Orden.m')
+
+### Ejecución en Java:
+1. Compilar los archivos Java:
+     ```java
+      javac NombreDelArchivo.java
+2. Ejecutar la clase principal:
+   ```java
+      java NombreDelArchivo
+
+## Métricas de Desempeño Analizadas
+En todos los sistemas se evalúan:
+- Error Estacionario: Precisión en estado estable
+- Tiempo de Establecimiento: Velocidad de respuesta
+- Sobrepico: Magnitud de las oscilaciones
+- ISE (Integral Square Error): Error cuadrático integral
+- Consumo Energético: Eficiencia del controlador
+
+## Parámetros Ajustables
+Los estudiantes pueden modificar:
+- Constantes PID: Kp, Ki, Kd
+- Condiciones iniciales del sistema
+- Referencias deseadas
+- Límites de los actuadores
+- Tiempos de simulación
+
+## Características Interactivas
+### Animaciones Incluidas:
+- Movimiento de elevador entre pisos
+- Brazo robótico de 2 GDL en tiempo real
+- Trayectorias del efector final
+- Actualización en tiempo real de métricas
+
+### Gráficos Interactivos:
+- Múltiples pestañas de visualización
+- Zoom en regiones de interés
+- Leyendas dinámicas
+- Comparación de configuraciones
+
+🔍 Ejemplos de Experimentación
+Para entender el efecto de cada término PID:
+- Proporcional (Kp):
+
+   ```java
+      // Prueba con Kp muy alto (causa oscilaciones)
+      Kp = 10.0, Ki = 0.0, Kd = 0.0 ´´´´ 
+
+      // Prueba con Kp muy bajo (respuesta lenta)  
+      Kp = 0.5, Ki = 0.0, Kd = 0.0
+
+- Integral (Ki):
+
+   ```java
+      // Para eliminar error estacionario
+      Kp = 2.0, Ki = 1.0, Kd = 0.0
+      
+      // Ki muy alto causa inestabilidad
+      Kp = 2.0, Ki = 5.0, Kd = 0.0
+
+- Derivativo (Kd):
+
+   ```java
+      // Para amortiguar oscilaciones
+      Kp = 3.0, Ki = 1.0, Kd = 4.0
+
+   
+## Contribuciones
+Este material fue desarrollado por MSc. Gerardo Emir Sánchez Valdés para fines educativos. Las contribuciones y mejoras son bienvenidas.
+
+## Licencia
+Material educativo para uso académico. Se permite la reproducción con fines educativos citando la fuente.
+
+
