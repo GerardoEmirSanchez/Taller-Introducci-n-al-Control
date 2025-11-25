@@ -13,9 +13,12 @@ Este repositorio contiene el material completo del Taller de Control PID para Ro
 
 ## Estructura del Repositorio
 Taller-Control-PID-Robotica/
+
 │
 ├── Documentación/
+
 │   └── Introducción_al_Control.pdf
+
 │
 ├── Códigos MATLAB/
 │   ├── Codigo_01_Control_PID.m
@@ -37,7 +40,7 @@ Taller-Control-PID-Robotica/
 
 
 
-## 🧪 Sistemas Implementados
+## Sistemas Implementados
 
 ### 1. **Control de Temperatura - Sistema de 2do Orden**
 - Modelado de sistema térmico de segundo orden
