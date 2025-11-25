@@ -18,21 +18,23 @@ Taller-Control-PID-Robotica/
 ├── Documentación/  
 │   └── Introducción_al_Control.pdf  
 │  
-├── Códigos MATLAB/  
-│   ├── Codigo_01_Control_PID.m  
-│   ├── Codigo_02_Control_PID_sintonizacion.m  
-│   ├── Codigo_03_Control_Identificar_modelo.m  
-│   ├── Codigo_04_Control_PID_ejemplo_elevador.m  
-│   ├── Codigo_05_Control_PID_ejemplo_manipulador.m  
-│   └── Codigo_extra_01_Control_PID_sobrepicos.m  
-│  
-├── Códigos Java/  
-│   ├── C_01_Control_PID.java  
-│   ├── C_02_Control_PID_sintonizacion.java  
-│   ├── C_03_Control_Identificar_modelo.java  
-│   ├── C_04_ControlElevadorPID.java  
-│   ├── C_05_ControlBrazoRobotico2GDL.java  
-│   ├── C_extra_01_ControlSinSobrepico.java  
+├── Codigos Taller Introducción al Control TEC/  
+│    
+│   ├── MATLAB/  
+│   │   ├── Codigo_01_Control_PID.m  
+│   │   ├── Codigo_02_Control_PID_sintonizacion.m  
+│   │   ├── Codigo_03_Control_Identificar_modelo.m  
+│   │   ├── Codigo_04_Control_PID_ejemplo_elevador.m  
+│   │   ├── Codigo_05_Control_PID_ejemplo_manipulador.m  
+│   │   └── Codigo_extra_01_Control_PID_sobrepicos.m  
+│   │  
+│   ├── Java/  
+│   │   ├── C_01_Control_PID.java  
+│   │   ├── C_02_Control_PID_sintonizacion.java  
+│   │   ├── C_03_Control_Identificar_modelo.java  
+│   │   ├── C_04_ControlElevadorPID.java  
+│   │   ├── C_05_ControlBrazoRobotico2GDL.java  
+│   │   ├── C_extra_01_ControlSinSobrepico.java  
 │  
 └── README.md  
 
